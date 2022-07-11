@@ -60,3 +60,11 @@ class BookingState extends CubitStates {
   // TODO: implement props
   List<Object> get props => throw UnimplementedError();
 }
+
+class InspState extends CubitStates {
+  InspState(this.indx);
+  final List indx;
+  @override
+  // TODO: implement props
+  List<Object> get props => [indx];
+}

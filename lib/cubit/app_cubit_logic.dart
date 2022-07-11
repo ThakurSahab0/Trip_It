@@ -8,6 +8,7 @@ import 'package:Trip_app/screens/signin_screen.dart';
 import 'package:Trip_app/screens/signup_screen.dart';
 import '../misc/pages/details_page.dart';
 import '../misc/pages/main_page.dart';
+import '../misc/pages/nav_pages/insp_page.dart';
 import '../misc/pages/welcome_page..dart';
 import '../screens/welcome.dart';
 
@@ -33,6 +34,7 @@ class _AppCubitLogicState extends State<AppCubitLogic> {
           if (state is SignInState) {
             return SignInScreen();
           }
+
           if (state is SignUpState) {
             return SignUpScreen();
           }

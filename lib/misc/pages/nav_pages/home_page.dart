@@ -1,8 +1,10 @@
+import 'package:Trip_app/misc/pages/nav_pages/insp_page.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import '../../../cubit/app_cubit.dart';
 import '../../../cubit/app_cubit_states.dart';
+import '../../../model/insp_index.dart';
 import '../../colors.dart';
 import '../../widgets/app_large_text.dart';
 import '../../widgets/app_text.dart';
@@ -16,10 +18,10 @@ class HomePage extends StatefulWidget {
 
 class _HomePageState extends State<HomePage> with TickerProviderStateMixin {
   var images = {
-    "balloning.png": "Balloning",
+    "balloning.png": "Ballooning",
     "hiking.png": "Hiking",
     "kayaking.png": "Kayaking",
-    "snorkling.png": "Snorkling"
+    "snorkling.png": "Snorkeling"
   };
   List images1 = [
     "insp-1.png",
@@ -30,6 +32,18 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin {
     "insp-6.jpg",
     "insp-7.jpg",
   ];
+
+  static List<String> images2 = [
+    "img/insp_images/insp-1.png",
+    "img/insp_images/insp-2.jpg",
+    "img/insp_images/insp-3.jpg",
+    "img/insp_images/insp-4.jpg",
+    "img/insp_images/insp-5.png",
+    "img/insp_images/insp-6.jpg",
+    "img/insp_images/insp-7.jpg",
+  ];
+  final List<IndexModel> imagedata =
+      List.generate(images2.length, (index) => IndexModel(images2[index]));
   @override
   Widget build(BuildContext context) {
     TabController _tabController = TabController(length: 3, vsync: this);
@@ -132,22 +146,30 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin {
                           );
                         },
                       ),
+
                       ListView.builder(
                         itemCount: images1.length,
                         scrollDirection: Axis.horizontal,
                         itemBuilder: (BuildContext context, int index) {
-                          return Container(
-                            margin: const EdgeInsets.only(right: 15, top: 10),
-                            width: 200,
-                            height: 300,
-                            decoration: BoxDecoration(
-                              borderRadius: BorderRadius.circular(20),
-                              color: Colors.white,
-                              image: DecorationImage(
-                                  image: AssetImage(
-                                    "img/insp_images" + images1[index],
-                                  ),
-                                  fit: BoxFit.cover),
+                          return GestureDetector(
+                            onTap: () {
+                              Navigator.of(context).push(MaterialPageRoute(
+                                  builder: (context) => InspirationPage(
+                                      imagemodel: imagedata[index])));
+                            },
+                            child: Container(
+                              margin: const EdgeInsets.only(right: 15, top: 10),
+                              width: 200,
+                              height: 300,
+                              decoration: BoxDecoration(
+                                borderRadius: BorderRadius.circular(20),
+                                color: Colors.white,
+                                image: DecorationImage(
+                                    image: AssetImage(
+                                      "img/insp_images/" + images1[index],
+                                    ),
+                                    fit: BoxFit.cover),
+                              ),
                             ),
                           );
                         },

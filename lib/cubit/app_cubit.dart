@@ -1,3 +1,4 @@
+import 'package:Trip_app/model/insp_index.dart';
 import 'package:bloc/bloc.dart';
 import 'package:Trip_app/cubit/app_cubit_states.dart';
 import 'package:Trip_app/model/data_model.dart';
@@ -14,7 +15,9 @@ class AppCubits extends Cubit<CubitStates> {
       emit(LoadingState());
       places = await data.getInfo();
       emit(LoadedState(places));
-    } catch (e) {}
+    } catch (e) {
+      print(e);
+    }
   }
 
   detailPage(DataModel data) {
