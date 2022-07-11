@@ -206,8 +206,15 @@ class _DetailsPageState extends State<DetailsPage> {
                     SizedBox(
                       width: 18,
                     ),
-                    ResponsiveButton(
-                      isResponsive: true,
+                    Expanded(
+                      child: GestureDetector(
+                        onTap: () {
+                          BlocProvider.of<AppCubits>(context).getBooking();
+                        },
+                        child: ResponsiveButton(
+                          isResponsive: true,
+                        ),
+                      ),
                     ),
                   ],
                 ),

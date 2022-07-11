@@ -21,6 +21,15 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin {
     "kayaking.png": "Kayaking",
     "snorkling.png": "Snorkling"
   };
+  List images1 = [
+    "insp-1.png",
+    "insp-2.jpg",
+    "insp-3.jpg",
+    "insp-4.jpg",
+    "insp-5.png",
+    "insp-6.jpg",
+    "insp-7.jpg",
+  ];
   @override
   Widget build(BuildContext context) {
     TabController _tabController = TabController(length: 3, vsync: this);
@@ -123,7 +132,27 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin {
                           );
                         },
                       ),
-                      Text("There"),
+                      ListView.builder(
+                        itemCount: images1.length,
+                        scrollDirection: Axis.horizontal,
+                        itemBuilder: (BuildContext context, int index) {
+                          return Container(
+                            margin: const EdgeInsets.only(right: 15, top: 10),
+                            width: 200,
+                            height: 300,
+                            decoration: BoxDecoration(
+                              borderRadius: BorderRadius.circular(20),
+                              color: Colors.white,
+                              image: DecorationImage(
+                                  image: AssetImage(
+                                    "img/insp_images" + images1[index],
+                                  ),
+                                  fit: BoxFit.cover),
+                            ),
+                          );
+                        },
+                      ),
+                      // Text("There"),
                       Text("Bye"),
                     ],
                   ),
@@ -173,8 +202,8 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin {
                                     borderRadius: BorderRadius.circular(20),
                                     color: Colors.white,
                                     image: DecorationImage(
-                                        image: AssetImage("img/" +
-                                            images.keys.elementAt(index)),
+                                        image: AssetImage(
+                                            "img/${images.keys.elementAt(index)}"),
                                         fit: BoxFit.cover),
                                   ),
                                 ),

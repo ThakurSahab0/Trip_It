@@ -54,3 +54,9 @@ class DetailState extends CubitStates {
   // TODO: implement props
   List<Object> get props => [place];
 }
+
+class BookingState extends CubitStates {
+  @override
+  // TODO: implement props
+  List<Object> get props => throw UnimplementedError();
+}

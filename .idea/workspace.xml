@@ -4,11 +4,38 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ecdae569-8e0b-4a9a-a416-eea450086da6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/img/home-icon.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.flutter-plugins-dependencies" beforeDir="false" afterPath="$PROJECT_DIR$/.flutter-plugins-dependencies" afterDir="false" />
+    <list default="true" id="ecdae569-8e0b-4a9a-a416-eea450086da6" name="Changes" comment="updated project">
+      <change afterPath="$PROJECT_DIR$/img/booking-image.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/insp_images/insp-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/insp_images/insp-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/insp_images/insp-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/insp_images/insp-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/insp_images/insp-5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/insp_images/insp-6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/insp_images/insp-7.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/70298ab9f61c6616a7a2ff863fd546ad/.filecache" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/flutter_build/70298ab9f61c6616a7a2ff863fd546ad/.filecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/70298ab9f61c6616a7a2ff863fd546ad/app.dill" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/flutter_build/70298ab9f61c6616a7a2ff863fd546ad/app.dill" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/70298ab9f61c6616a7a2ff863fd546ad/debug_android_application.stamp" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/flutter_build/70298ab9f61c6616a7a2ff863fd546ad/debug_android_application.stamp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/70298ab9f61c6616a7a2ff863fd546ad/flutter_assets.d" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/flutter_build/70298ab9f61c6616a7a2ff863fd546ad/flutter_assets.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/70298ab9f61c6616a7a2ff863fd546ad/outputs.json" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/flutter_build/70298ab9f61c6616a7a2ff863fd546ad/outputs.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/4f2a58af27abc49ecf55570043bbf938.cache.dill.track.dill" beforeDir="false" afterPath="$PROJECT_DIR$/build/4f2a58af27abc49ecf55570043bbf938.cache.dill.track.dill" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/intermediates/assets/debug/mergeDebugAssets/flutter_assets/AssetManifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/assets/debug/mergeDebugAssets/flutter_assets/AssetManifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/intermediates/assets/debug/mergeDebugAssets/flutter_assets/kernel_blob.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/assets/debug/mergeDebugAssets/flutter_assets/kernel_blob.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/intermediates/compressed_assets/debug/out/assets/flutter_assets/AssetManifest.json.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/compressed_assets/debug/out/assets/flutter_assets/AssetManifest.json.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/intermediates/compressed_assets/debug/out/assets/flutter_assets/kernel_blob.bin.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/compressed_assets/debug/out/assets/flutter_assets/kernel_blob.bin.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/intermediates/flutter/debug/flutter_assets/AssetManifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/flutter/debug/flutter_assets/AssetManifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/intermediates/flutter/debug/flutter_assets/kernel_blob.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/flutter/debug/flutter_assets/kernel_blob.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/intermediates/flutter/debug/flutter_build.d" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/flutter/debug/flutter_build.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/outputs/apk/debug/app-debug.apk" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/outputs/apk/debug/app-debug.apk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/outputs/flutter-apk/app-debug.apk" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/outputs/flutter-apk/app-debug.apk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/outputs/flutter-apk/app.apk" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/outputs/flutter-apk/app.apk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/outputs/flutter-apk/app.apk.sha1" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/outputs/flutter-apk/app.apk.sha1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/cubit/app_cubit.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/cubit/app_cubit.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/cubit/app_cubit_logic.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/cubit/app_cubit_logic.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/cubit/app_cubit_states.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/cubit/app_cubit_states.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/misc/pages/details_page.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/misc/pages/details_page.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/misc/pages/nav_pages/booking_page.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/misc/pages/nav_pages/booking_page.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/misc/pages/nav_pages/home_page.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/misc/pages/nav_pages/home_page.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -16,10 +43,20 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Dart File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="2BmMGCmBEe2AvzBk4xMuvi3A5E4" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -37,6 +74,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\91745\Desktop\Trip_It\img\insp_images" />
       <recent name="C:\Users\91745\Desktop\Trip_It\img" />
     </key>
   </component>
@@ -55,6 +93,14 @@
       <option name="presentableId" value="Default" />
       <updated>1657506708471</updated>
     </task>
+    <task id="LOCAL-00001" summary="updated project">
+      <created>1657526656603</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1657526656603</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -67,5 +113,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="updated project" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated project" />
   </component>
 </project>
