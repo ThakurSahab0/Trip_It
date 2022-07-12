@@ -149,7 +149,7 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin {
                 //Tab Bar
                 Container(
                   child: Align(
-                    alignment: Alignment.centerLeft,
+                    alignment: Alignment.center,
                     child: TabBar(
                       labelPadding: const EdgeInsets.only(left: 20, right: 20),
                       controller: _tabController,
