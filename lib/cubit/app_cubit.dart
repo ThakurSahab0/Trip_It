@@ -41,6 +41,10 @@ class AppCubits extends Cubit<CubitStates> {
   }
 
   getBooking() {
-    emit(BookingState());
+    emit(BookingState(places));
+  }
+
+  goDetail() {
+    emit(DetailState(places));
   }
 }

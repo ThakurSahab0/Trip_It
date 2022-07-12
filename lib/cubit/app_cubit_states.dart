@@ -56,9 +56,11 @@ class DetailState extends CubitStates {
 }
 
 class BookingState extends CubitStates {
+  BookingState(this.places);
+  final List<DataModel> places;
   @override
   // TODO: implement props
-  List<Object> get props => throw UnimplementedError();
+  List<Object> get props => [places];
 }
 
 class InspState extends CubitStates {

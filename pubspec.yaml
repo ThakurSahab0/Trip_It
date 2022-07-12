@@ -71,6 +71,7 @@ flutter:
     # - images/login_image.png
     - images/
     - img/
+    - img/emotion/
     - img/insp_images/
   #   - images/a_dot_ham.jpeg
 
