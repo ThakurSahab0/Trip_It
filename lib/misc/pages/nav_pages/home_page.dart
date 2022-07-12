@@ -238,9 +238,6 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin {
                             width: 400,
                             child: Column(
                               children: [
-                                SizedBox(
-                                  height: 30,
-                                ),
                                 ApplargeText(
                                   text: emotiontext[index],
                                   size: 20,
@@ -275,6 +272,9 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin {
                                   text: text2[index],
                                   color: AppColors.textColor2,
                                 ),
+                                SizedBox(
+                                  height: 30,
+                                )
                               ],
                             ),
                           );

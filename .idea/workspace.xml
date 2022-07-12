@@ -4,51 +4,7 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ecdae569-8e0b-4a9a-a416-eea450086da6" name="Changes" comment="updated project">
-      <change afterPath="$PROJECT_DIR$/img/emotion/emotion-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/emotion/emotion-10.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/emotion/emotion-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/emotion/emotion-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/emotion/emotion-4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/emotion/emotion-5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/emotion/emotion-6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/emotion/emotion-7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/emotion/emotion-8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/emotion/emotion-9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/emotion/trip-1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/70298ab9f61c6616a7a2ff863fd546ad/.filecache" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/flutter_build/70298ab9f61c6616a7a2ff863fd546ad/.filecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/70298ab9f61c6616a7a2ff863fd546ad/app.dill" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/flutter_build/70298ab9f61c6616a7a2ff863fd546ad/app.dill" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/70298ab9f61c6616a7a2ff863fd546ad/debug_android_application.stamp" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/flutter_build/70298ab9f61c6616a7a2ff863fd546ad/debug_android_application.stamp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/70298ab9f61c6616a7a2ff863fd546ad/flutter_assets.d" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/flutter_build/70298ab9f61c6616a7a2ff863fd546ad/flutter_assets.d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/70298ab9f61c6616a7a2ff863fd546ad/outputs.json" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/flutter_build/70298ab9f61c6616a7a2ff863fd546ad/outputs.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.dart_tool/package_config.json" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/package_config.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.flutter-plugins-dependencies" beforeDir="false" afterPath="$PROJECT_DIR$/.flutter-plugins-dependencies" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.packages" beforeDir="false" afterPath="$PROJECT_DIR$/.packages" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/4f2a58af27abc49ecf55570043bbf938.cache.dill.track.dill" beforeDir="false" afterPath="$PROJECT_DIR$/build/4f2a58af27abc49ecf55570043bbf938.cache.dill.track.dill" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/assets/debug/mergeDebugAssets/flutter_assets/AssetManifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/assets/debug/mergeDebugAssets/flutter_assets/AssetManifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/assets/debug/mergeDebugAssets/flutter_assets/kernel_blob.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/assets/debug/mergeDebugAssets/flutter_assets/kernel_blob.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/compressed_assets/debug/out/assets/flutter_assets/AssetManifest.json.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/compressed_assets/debug/out/assets/flutter_assets/AssetManifest.json.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/compressed_assets/debug/out/assets/flutter_assets/kernel_blob.bin.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/compressed_assets/debug/out/assets/flutter_assets/kernel_blob.bin.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/flutter/debug/flutter_assets/AssetManifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/flutter/debug/flutter_assets/AssetManifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/flutter/debug/flutter_assets/kernel_blob.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/flutter/debug/flutter_assets/kernel_blob.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/flutter/debug/flutter_build.d" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/flutter/debug/flutter_build.d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/merge-state" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/merge-state" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/IXv6eC+OEr_MaGC1Ya_cP2QBZrA=" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/IXv6eC+OEr_MaGC1Ya_cP2QBZrA=" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/k77ghUqBSI_X3b+1+kgEYg2avUw=" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/k77ghUqBSI_X3b+1+kgEYg2avUw=" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/kotlin/compileDebugKotlin/build-history.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/kotlin/compileDebugKotlin/build-history.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/kotlin/compileDebugKotlin/last-build.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/kotlin/compileDebugKotlin/last-build.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/outputs/apk/debug/app-debug.apk" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/outputs/apk/debug/app-debug.apk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/outputs/flutter-apk/app-debug.apk" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/outputs/flutter-apk/app-debug.apk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/outputs/flutter-apk/app.apk" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/outputs/flutter-apk/app.apk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/outputs/flutter-apk/app.apk.sha1" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/outputs/flutter-apk/app.apk.sha1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/cubit/app_cubit.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/cubit/app_cubit.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/cubit/app_cubit_states.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/cubit/app_cubit_states.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/misc/pages/nav_pages/booking_page.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/misc/pages/nav_pages/booking_page.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/misc/pages/nav_pages/home_page.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/misc/pages/nav_pages/home_page.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
-    </list>
+    <list default="true" id="ecdae569-8e0b-4a9a-a416-eea450086da6" name="Changes" comment="final project" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -126,7 +82,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657538999710</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="final project">
+      <created>1657592785122</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1657592785122</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -143,6 +106,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="updated project" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated project" />
+    <MESSAGE value="final project" />
+    <option name="LAST_COMMIT_MESSAGE" value="final project" />
   </component>
 </project>
