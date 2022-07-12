@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ecdae569-8e0b-4a9a-a416-eea450086da6" name="Changes" comment="final project" />
+    <list default="true" id="ecdae569-8e0b-4a9a-a416-eea450086da6" name="Changes" comment="final project">
+      <change beforePath="$PROJECT_DIR$/lib/misc/pages/nav_pages/home_page.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/misc/pages/nav_pages/home_page.dart" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
