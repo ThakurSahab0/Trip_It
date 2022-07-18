@@ -38,7 +38,9 @@ dependencies:
   firebase_core: ^1.19.1
   firebase_auth: ^3.4.1
   fluttertoast: ^8.0.9
+  flutter_native_splash: ^2.2.4
   email_validator: '^1.0.6'
+  webview_flutter: ^3.0.4
   bloc:
   flutter_bloc:
   equatable:
@@ -47,6 +49,11 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
+
+flutter_native_splash:
+  image: images/Splash_screen.png
+  color: "#f9f9f9"
+    
 
   # The "flutter_lints" package below contains a set of recommended lints to
   # encourage good coding practices. The lint set provided by the package is

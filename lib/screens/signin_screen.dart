@@ -1,4 +1,4 @@
-// ignore_for_file: prefer_const_constructors, prefer_final_fields, sort_child_properties_last, avoid_init_to_null, unused_field, avoid_unnecessary_containers, body_might_complete_normally_nullable, avoid_print
+// ignore_for_file: prefer_const_constructors, prefer_final_fields, sort_child_properties_last, avoid_init_to_null, unused_field, avoid_unnecessary_containers, body_might_complete_normally_nullable, avoid_print, unused_import
 
 // import 'package:email_validator/email_validator.dart';
 import 'package:firebase_auth/firebase_auth.dart';

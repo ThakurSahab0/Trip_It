@@ -1,10 +1,11 @@
+// ignore_for_file: prefer_const_constructors, avoid_unnecessary_containers, prefer_const_literals_to_create_immutables, prefer_interpolation_to_compose_strings, must_be_immutable, no_leading_underscores_for_local_identifiers, unnecessary_string_escapes
+
 import 'package:Trip_app/misc/pages/nav_pages/insp_page.dart';
-import 'package:flutter/cupertino.dart';
+import 'package:Trip_app/model/insp_model.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import '../../../cubit/app_cubit.dart';
 import '../../../cubit/app_cubit_states.dart';
-import '../../../model/insp_index.dart';
 import '../../colors.dart';
 import '../../widgets/app_large_text.dart';
 import '../../widgets/app_text.dart';
@@ -38,7 +39,7 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin {
     "Anticipation can be both a good thing and a bad thing. While you often find yourself daydreaming about all the great things that will happen to you while you’re away, you sometimes begin to feel the onset of nerves, too. Lying in bed at night, unable to sleep, you start to list all the things you need to do before your trip: find a good pair of hiking boots, get all your immunisations, exchange money, pack, and so much more.",
     "You left all of those worries behind, because you just arrived at your destination. Maybe it’s a bustling city, maybe it’s a tranquil lake, maybe you’re about to get lost in the mountains for a few months.",
     "You chose this place for a reason. Something about it drew you here: the culture, the food, the architecture, the nature, the people. Maybe you’re seeing it for the first time, maybe for the tenth time; either way, it brings you immense happiness to be here.",
-    "Maybe you’ve been here for a few days, maybe you’ve already stayed for a few months. You quickly found your groove in this place, though, discovered your favourite café, the best art museum, or the most serene spot to sit and think.",
+    "Maybe you’ve been here for a few days, maybe you’ve already stayed for a few months. You quickly found your groove in this place, though, discovered your favourite cafe, the best art museum, or the most serene spot to sit and think.",
     "Even the calmest traveller sometimes reaches her boiling point. Everything has been going smoothly, but one bad day can really play with your mind. You got mugged, or you got lost, or nobody would help you at the train station. It’s easy to get frustrated when you’re tired, hungry, sick, or lonely.",
     "That bad day is behind you, and you fall in love again. Maybe it was a visit to a new restaurant that did it, or a smile from a stranger. Not every trip will go perfectly, of course, and you accept that whatever happened was probably not the fault of the country itself, but the acceptance that life, no matter where on the planet you’re living it, has its ups and downs.",
     "It seems like only yesterday that you were worried about starting your trip, and now you’re absolutely dreading going home. Whether you only had a few days or have been gone for years, it feels that your time abroad went far too quickly.",
@@ -193,6 +194,44 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin {
                                 image: DecorationImage(
                                     image: NetworkImage(info[index].img),
                                     fit: BoxFit.cover),
+                              ),
+                              child: Container(
+                                margin: const EdgeInsets.only(
+                                  top: 220,
+                                  left: 2,
+                                ),
+                                child: Column(
+                                  crossAxisAlignment: CrossAxisAlignment.start,
+                                  children: [
+                                    Container(
+                                      margin: const EdgeInsets.only(
+                                        left: 10,
+                                      ),
+                                      child: ApplargeText(
+                                        text: info[index].name,
+                                        color: Colors.black,
+                                        size: 24,
+                                      ),
+                                    ),
+                                    Expanded(
+                                      child: Row(
+                                        children: [
+                                          Icon(
+                                            Icons.location_on,
+                                            color: AppColors.mainColor,
+                                          ),
+                                          SizedBox(
+                                            width: 5,
+                                          ),
+                                          AppText(
+                                            text: info[index].location,
+                                            color: AppColors.mainColor,
+                                          ),
+                                        ],
+                                      ),
+                                    ),
+                                  ],
+                                ),
                               ),
                             ),
                           );
@@ -367,6 +406,7 @@ class CircleTabIndicator extends Decoration {
   CircleTabIndicator({required this.color, required this.radius});
   @override
   BoxPainter createBoxPainter([VoidCallback? onChanged]) {
+    // ignore: todo
     // TODO: implement createBoxPainter
     return _CirclePainter(color: color, radius: radius);
   }

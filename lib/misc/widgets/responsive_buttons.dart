@@ -1,4 +1,5 @@
-import 'package:flutter/cupertino.dart';
+// ignore_for_file: must_be_immutable
+
 import 'package:flutter/material.dart';
 import '../colors.dart';
 import 'app_text.dart';
@@ -28,7 +29,7 @@ class ResponsiveButton extends StatelessWidget {
           children: [
             isResponsive == true
                 ? Container(
-                    margin: const EdgeInsets.only(left: 20),
+                    margin: const EdgeInsets.only(left: 15),
                     child: AppText(
                       text: "Book Trip Now",
                       color: Colors.white,

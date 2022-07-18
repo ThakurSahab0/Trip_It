@@ -1,9 +1,8 @@
-// ignore_for_file: sort_child_properties_last, sized_box_for_whitespace
+// ignore_for_file: sort_child_properties_last, sized_box_for_whitespace, camel_case_types
 
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:Trip_app/cubit/app_cubit.dart';
-import 'package:Trip_app/screens/signin_screen.dart';
 
 class WelcomeScreen extends StatefulWidget {
   const WelcomeScreen({Key? key}) : super(key: key);
@@ -51,27 +50,6 @@ class _bodyState extends State<body> {
           SizedBox(
             height: 100,
           ),
-          // Container(
-          //   width: size.width * 0.8,
-          //   child: ClipRRect(
-          //     borderRadius: BorderRadius.circular(29),
-          //     child: TextButton(
-          //       onPressed: () {},
-          //       child: const Text(
-          //         "LOGIN",
-          //         style: TextStyle(color: Colors.white),
-          //       ),
-          //       style: TextButton.styleFrom(
-          //         padding:
-          //             const EdgeInsets.symmetric(vertical: 20, horizontal: 40),
-          //         backgroundColor: Colors.blue,
-          //       ),
-          //     ),
-          //   ),
-          // ),
-          // const SizedBox(
-          //   height: 20,
-          // ),
           Container(
             width: size.width * 0.8,
             child: ClipRRect(

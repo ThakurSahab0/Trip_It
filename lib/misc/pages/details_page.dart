@@ -1,6 +1,9 @@
+// ignore_for_file: prefer_const_constructors, prefer_interpolation_to_compose_strings, unnecessary_import, sized_box_for_whitespace
+
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:fluttertoast/fluttertoast.dart';
 import '../../cubit/app_cubit.dart';
 import '../../cubit/app_cubit_states.dart';
 import '../colors.dart';
@@ -20,6 +23,10 @@ class _DetailsPageState extends State<DetailsPage> {
   int gottenStars = 4;
   int selectedIndex = -1;
   @override
+  void showToast() => Fluttertoast.showToast(
+      msg: "Added to favorite",
+      fontSize: 15,
+      backgroundColor: Colors.pinkAccent);
   Widget build(BuildContext context) {
     return BlocBuilder<AppCubits, CubitStates>(builder: (context, state) {
       DetailState detail = state as DetailState;
@@ -175,7 +182,7 @@ class _DetailsPageState extends State<DetailsPage> {
                           height: 20,
                         ),
                         ApplargeText(
-                          text: "Discription",
+                          text: "Description",
                           color: Colors.black.withOpacity(0.8),
                           size: 20,
                         ),
@@ -195,13 +202,19 @@ class _DetailsPageState extends State<DetailsPage> {
                 right: 20,
                 child: Row(
                   children: [
-                    AppButtons(
-                      size: 60,
-                      color: AppColors.textColor1,
-                      backgroundcolor: Colors.white,
-                      borderColor: AppColors.textColor1,
-                      isIcon: true,
-                      icon: Icons.favorite_border,
+                    GestureDetector(
+                      onTap: () {
+                        showToast();
+                        print("Added to favorite");
+                      },
+                      child: AppButtons(
+                        size: 60,
+                        color: AppColors.textColor1,
+                        backgroundcolor: Colors.white,
+                        borderColor: AppColors.textColor1,
+                        isIcon: true,
+                        icon: Icons.favorite_border,
+                      ),
                     ),
                     SizedBox(
                       width: 18,
@@ -211,8 +224,25 @@ class _DetailsPageState extends State<DetailsPage> {
                         onTap: () {
                           BlocProvider.of<AppCubits>(context).getBooking();
                         },
-                        child: ResponsiveButton(
-                          isResponsive: true,
+                        child: Container(
+                          width: double.maxFinite,
+                          height: 60,
+                          decoration: BoxDecoration(
+                              borderRadius: BorderRadius.circular(10),
+                              color: AppColors.mainColor),
+                          child: Row(
+                            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                            children: [
+                              Container(
+                                margin: const EdgeInsets.only(left: 15),
+                                child: AppText(
+                                  text: "Book Trip Now",
+                                  color: Colors.white,
+                                ),
+                              ),
+                              Image.asset("img/button-one.png"),
+                            ],
+                          ),
                         ),
                       ),
                     ),

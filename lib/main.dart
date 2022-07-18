@@ -5,10 +5,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:Trip_app/cubit/app_cubit.dart';
-import 'package:Trip_app/screens/signin_screen.dart';
-import 'package:Trip_app/screens/welcome.dart';
 import 'package:Trip_app/services/data_services.dart';
-import 'package:Trip_app/utils/routes.dart';
 import 'cubit/app_cubit_logic.dart';
 
 void main() async {
@@ -22,21 +19,16 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-        debugShowCheckedModeBanner: false,
-        title: 'Flutter Demo',
-        theme: ThemeData(
-          primarySwatch: Colors.deepPurple,
-          fontFamily: GoogleFonts.lato().fontFamily,
-        ),
-        home: BlocProvider<AppCubits>(
-          create: (context) => AppCubits(data: DataServices()),
-          child: AppCubitLogic(),
-          // // home: const WelcomeScreen(),
-          // initialRoute: "/",
-          // routes: {
-          //   "/": (context) => WelcomeScreen(),
-          //   // MyRoutes.signIn: (context) => SignInScreen(),
-          // },
-        ));
+      debugShowCheckedModeBanner: false,
+      title: 'Trip It',
+      theme: ThemeData(
+        primarySwatch: Colors.deepPurple,
+        fontFamily: GoogleFonts.lato().fontFamily,
+      ),
+      home: BlocProvider<AppCubits>(
+        create: (context) => AppCubits(data: DataServices()),
+        child: AppCubitLogic(),
+      ),
+    );
   }
 }

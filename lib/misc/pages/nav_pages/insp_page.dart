@@ -1,6 +1,10 @@
-import 'package:Trip_app/model/insp_index.dart';
+
+// ignore_for_file: unnecessary_import
+
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+
+import '../../../model/insp_model.dart';
 
 class InspirationPage extends StatelessWidget {
   final IndexModel imagemodel;

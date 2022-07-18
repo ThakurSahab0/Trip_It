@@ -1,0 +1,28 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\91745\\Desktop\\Trip_It_App\\build\\app\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-v31\\values-v31.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\91745\\Desktop\\Trip_It_App\\android\\app\\src\\main\\res\\values-v31\\styles.xml",
+                    "from": {
+                        "startLines": "3,15",
+                        "startColumns": "4,4",
+                        "startOffsets": "176,915",
+                        "endLines": "8,17",
+                        "endColumns": "12,12",
+                        "endOffsets": "557,1081"
+                    },
+                    "to": {
+                        "startLines": "2,8",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,436",
+                        "endLines": "7,10",
+                        "endColumns": "12,12",
+                        "endOffsets": "431,600"
+                    }
+                }
+            ]
+        }
+    ]
+}

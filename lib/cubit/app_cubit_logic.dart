@@ -1,5 +1,6 @@
+// ignore_for_file: prefer_const_constructors
+
 import 'package:Trip_app/misc/pages/nav_pages/booking_page.dart';
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:Trip_app/cubit/app_cubit.dart';
@@ -8,7 +9,6 @@ import 'package:Trip_app/screens/signin_screen.dart';
 import 'package:Trip_app/screens/signup_screen.dart';
 import '../misc/pages/details_page.dart';
 import '../misc/pages/main_page.dart';
-import '../misc/pages/nav_pages/insp_page.dart';
 import '../misc/pages/welcome_page..dart';
 import '../screens/welcome.dart';
 

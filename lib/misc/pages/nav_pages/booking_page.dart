@@ -1,4 +1,5 @@
-import 'package:flutter/cupertino.dart';
+// ignore_for_file: prefer_const_constructors, sized_box_for_whitespace, unused_local_variable
+
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
@@ -56,8 +57,9 @@ class _BookingPageState extends State<BookingPage> {
               ],
             ),
           );
-        } else
+        } else {
           return Container();
+        }
       }));
     });
   }
