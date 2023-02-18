@@ -1,16 +1,16 @@
-#Mon Jul 18 19:22:46 IST 2022
-path.4=2/classes.dex
-path.3=1/classes.dex
-path.2=0/classes.dex
-path.1=0/classes.dex
+#Tue Jan 24 20:01:49 IST 2023
+base.0=C\:\\Users\\ASUS\\OneDrive\\Desktop\\New folder\\build\\app\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
+base.1=C\:\\Users\\ASUS\\OneDrive\\Desktop\\New folder\\build\\app\\intermediates\\dex\\debug\\mergeLibDexDebug\\0\\classes.dex
+base.2=C\:\\Users\\ASUS\\OneDrive\\Desktop\\New folder\\build\\app\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
+base.3=C\:\\Users\\ASUS\\OneDrive\\Desktop\\New folder\\build\\app\\intermediates\\dex\\debug\\mergeProjectDexDebug\\1\\classes.dex
+base.4=C\:\\Users\\ASUS\\OneDrive\\Desktop\\New folder\\build\\app\\intermediates\\dex\\debug\\mergeProjectDexDebug\\2\\classes.dex
 path.0=classes.dex
-base.4=C\:\\Users\\91745\\Desktop\\Trip_It_App\\build\\app\\intermediates\\dex\\debug\\mergeProjectDexDebug\\2\\classes.dex
-base.3=C\:\\Users\\91745\\Desktop\\Trip_It_App\\build\\app\\intermediates\\dex\\debug\\mergeProjectDexDebug\\1\\classes.dex
-base.2=C\:\\Users\\91745\\Desktop\\Trip_It_App\\build\\app\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
-base.1=C\:\\Users\\91745\\Desktop\\Trip_It_App\\build\\app\\intermediates\\dex\\debug\\mergeLibDexDebug\\0\\classes.dex
-base.0=C\:\\Users\\91745\\Desktop\\Trip_It_App\\build\\app\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
-renamed.3=classes4.dex
-renamed.2=classes3.dex
-renamed.1=classes2.dex
+path.1=0/classes.dex
+path.2=0/classes.dex
+path.3=1/classes.dex
+path.4=2/classes.dex
 renamed.0=classes.dex
+renamed.1=classes2.dex
+renamed.2=classes3.dex
+renamed.3=classes4.dex
 renamed.4=classes5.dex
